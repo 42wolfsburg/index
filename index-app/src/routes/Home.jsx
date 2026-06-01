@@ -10,9 +10,10 @@ const Home = () => {
     return (
         <div className="min-h-screen flex flex-col">
             <Header />
-            <main className="flex-1 p-8 grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <main className="flex p-8 grid grid-cols-1 lg:grid-cols-2 max-w-xl mx-auto gap-6">
                 {items.map((item, i) => <Card key={i} {...item} />)}
             </main>
+            <Footer />
         </div>
     )
 }
