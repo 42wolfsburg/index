@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@theme {
+  --font-mikrobe: 'Mikrobe', sans-serif;
+  --font-silka: 'Silka', sans-serif;
+}
+
+@font-face {
+  font-family: 'Mikrobe';
+  src: url('./assets/fonts/Mikrobe-Extended.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Silka';
+  src: url('./assets/fonts/Silka-Medium.otf') format('opentype');
+}

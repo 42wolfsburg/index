@@ -13,13 +13,13 @@ const items = [
 
 const Home = () => {
     return (
-        <div className="min-h-screen flex flex-col">
-            <Header />
-            <main className="flex p-4 grid grid-cols-1 lg:grid-cols-4 mx-auto gap-6">
-                {items.map((item, i) => <Card key={i} {...item} />)}
-            </main>
-            <Footer />
-        </div>
+    <div className="min-h-screen flex flex-col">
+        <Header showStaffButton />
+        <main className="flex-1 p-8 grid max-w-screen-xl mx-auto gap-6">
+            {items.map((item, i) => <Card key={i} {...item} />)}
+        </main>
+        <Footer />
+    </div>
     )
 }
 
