@@ -1,4 +1,5 @@
-// Footer.jsx
+import ft_logo_white from '../assets/42wolfsburg_white_2.png'
+
 export default function Footer() {
   return (
     <footer className="
@@ -10,14 +11,12 @@ export default function Footer() {
     justify-between 
     items-center 
     px-6 
-    bg-gray-100 
     text-sm 
     text-gray-500
+    bg-black
     ">
-      <span>© 2026 42 Wolfsburg</span>
-      <div className="flex gap-4">
-        Anything that needs to go on the corner
-      </div>
-    </footer>
+      <img src={ft_logo_white} className="h-8 w-14" />
+      <div className="text-[#F2F2F2]">{`Don't pan`}<a href="https://www.youtube.com/watch?v=ygr5AHufBN4&list=RDygr5AHufBN4&start_radio=1" className="text-[#F2F2F2]">i</a>{`c`}</div>  
+    </footer>   
   )
 }
