@@ -8,7 +8,7 @@ export default function Header({showStaffButton}) {
   
   return (
     <header className="flex justify-between items-center text-[#F2F2F2] px-6 py-4 bg-black shadow-sm">
-      <img src={ft_logo_white} className="w-32 h-10" />
+      <a href="https://42wolfsburg.de"><img src={ft_logo_white} className="w-32 h-10" /></a>
       {showStaffButton &&
         <button 
         className="px-4 py-2 rounded-md text-sm font-medium font-silka bg-[#67BDE4] transition hover:opacity-90"
@@ -16,7 +16,7 @@ export default function Header({showStaffButton}) {
         >
           Staff area
         </button>}
-        <span className="text-4xl font-mikrobe">Index</span>
+        <a href="/"><span className="text-4xl font-mikrobe">Index</span></a>
     </header>
   )
 }
