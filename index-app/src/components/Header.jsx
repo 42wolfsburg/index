@@ -7,7 +7,7 @@ export default function Header({showStaffButton}) {
   const navigate = useNavigate()
   
   return (
-    <header className="flex justify-between items-center text-[#F2F2F2] px-6 py-4 bg-black shadow-sm">
+    <header className="flex justify-between items-center text-[#F2F2F2] px-4 py-3 bg-black shadow-sm">
       <a href="https://42wolfsburg.de"><img src={ft_logo_white} className="w-32 h-10" /></a>
       {showStaffButton &&
         <button 
@@ -16,7 +16,7 @@ export default function Header({showStaffButton}) {
         >
           Staff area
         </button>}
-        <a href="/"><span className="text-4xl font-mikrobe">Index</span></a>
+        <a onClick={() => navigate('/')}><span className="text-2xl font-mikrobe">Index</span></a>
     </header>
   )
 }
