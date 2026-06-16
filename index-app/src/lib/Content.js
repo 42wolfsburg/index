@@ -1,6 +1,7 @@
 const items_staff = [
     {title: "API-keychain", description: "Service from Hive that tracks our keychains and subsequent expiry.", link: "https://api-keychain.42wolfsburg.de"},
     {title: "Printserver", description: "This is our webapp that takes care of our printing services.", link: "https://printserver.42wolfsburg.de"},
+    {title: "Certificate Platform", description: "Our internal service for generating certificates! In case you can't find the certificate you need - please contact pedago@42wolfsburg.de", link: "https://cert.42wolfsburg.de"},
     {title: "BOOK", description: "BOOK is our booking system for all of our campus meeting rooms! Here you can schedule slots of max three hours in our meeting rooms.", link: "https://meeting.42wolfsburg.de"},
     {title: "Libri", description: "Libri is our system for our library books! You can scan and do everything yourself from there.", link: "https://libri.42wolfsburg.de"},
     {title: "Kenjo", description: "Our HR platform where you track your working hours and documents.", link: "https://www.kenjo.io"},
@@ -11,6 +12,7 @@ const items_staff = [
 
 const items = [
     {title: "Printserver", description: "Our internal service for printing stuff! If you need something printed, just go here and use your 42 account to authenticate! Beware, you need wallet points for printing!", link: "https://printserver.42wolfsburg.de"},
+    {title: "Certificate Platform", description: "Our internal service for generating certificates! In case you can't find the certificate you need - please contact pedago@42wolfsburg.de", link: "https://cert.42wolfsburg.de"},
     {title: "Peersphere", description: "Peersphere is how we manage our evaluation system. If you need something evaluated, or gotta evaluate someone, this is the place to be!", link: "https://peersphere.42wolfsburg.de"},
     // {title: "BOOK", description: "BOOK is our booking system for all of our campus meeting rooms! Here you can schedule slots of max three hours in our meeting rooms.", link: "https://meeting.42wolfsburg.de"},
     {title: "Notion", description: "Notion is where all our documentation and important information is! If you don't know about X or Y, check if we page a page in notion for it before even asking your peers!", link: "https://www.notion.so/42wolfsburgberlin/Wolfsburg-5564a9071a0a4b13b5a05f3584ed4c7b"},
