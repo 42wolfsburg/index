@@ -9,14 +9,14 @@ export default function Header({showStaffButton}) {
   return (
     <header className="flex justify-between items-center text-[#F2F2F2] px-4 py-3 bg-black shadow-sm">
       <a href="https://42wolfsburg.de"><img src={ft_logo_white} className="w-32 h-10" /></a>
-      {showStaffButton &&
+      {/* {showStaffButton &&
         <button 
-        className="px-4 py-2 rounded-md text-sm font-medium font-silka bg-[#67BDE4] transition hover:opacity-90"
+        className="px-4 py-2 rounded-md text-sm font-medium font-silka bg-[#67BDE4] transition hover:opacity-90 cursor-pointer"
         onClick={() => navigate('/staff')}
         >
-          Staff area
-        </button>}
-        <a onClick={() => navigate('/')}><span className="text-2xl font-mikrobe">Index</span></a>
+          Staff zone
+        </button>} */}
+        <a href="/" className="text-2xl font-mikrobe">Index</a>
     </header>
   )
 }
